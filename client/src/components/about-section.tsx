@@ -12,7 +12,7 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+              src="https://raw.githubusercontent.com/Heitornm/hnmartins/refs/heads/main/img/img3semestre.jpg" 
               alt="Workspace de desenvolvimento" 
               className="rounded-xl shadow-lg w-full"
             />
