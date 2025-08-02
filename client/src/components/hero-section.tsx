@@ -8,12 +8,12 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Olá, eu sou
+              Bem vindo, eu sou
               <span className="gradient-text block">Heitor Martins</span>
             </h1>
             <p className="text-xl mb-8 text-slate-600 dark:text-slate-400">
-              Desenvolvedor de Sistemas em formação, especializado em desenvolvimento web e mobile. 
-              Atualmente cursando Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá.
+              Desenvolvedor de Sistemas, especializado em desenvolvimento web, mobile e desenvolvimento de softwares e aplicações em Python. 
+              Formado em Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button 
@@ -37,7 +37,7 @@ export function HeroSection() {
               <a href="https://linkedin.com/in/heitornm" className="text-2xl hover:text-blue-600 transition-colors">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://wa.me/5511999999999" className="text-2xl hover:text-blue-600 transition-colors">
+              <a href="https://wa.me/5511980170584" className="text-2xl hover:text-blue-600 transition-colors">
                 <i className="fab fa-whatsapp"></i>
               </a>
             </div>
