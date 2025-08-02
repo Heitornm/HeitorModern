@@ -122,7 +122,7 @@ export function EducationSection() {
                 <span className="text-sm text-blue-600">Concluido</span>
               </div>
               <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2">
-                <div className="bg-gradient-to-r from-blue-600 to-cyan-500 h-2 rounded-full" style={{width: "80%"}}></div>
+                <div className="bg-gradient-to-r from-blue-600 to-cyan-500 h-2 rounded-full" style={{width: "100%"}}></div>
               </div>
             </div>
                         
