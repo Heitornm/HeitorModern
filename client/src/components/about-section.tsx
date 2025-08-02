@@ -27,7 +27,7 @@ export function AboutSection() {
             
             <p className="text-lg">
               Formado em Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá, e gosto de estudar 
-              conteúdos que complementam minha bagagem e facilitem os desafios. 
+              conteúdos que complementam minha bagagem e facilitem meus desafios. 
             </p>
             
             <p className="text-lg">
