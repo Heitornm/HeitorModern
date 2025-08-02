@@ -45,7 +45,7 @@ export function HeroSection() {
           
           <div className="animate-fade-in hidden lg:block">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
+              src="https://raw.githubusercontent.com/Heitornm/hnmartins/refs/heads/main/img/heitorimg.png" 
               alt="Heitor Martins - Desenvolvedor de Sistemas" 
               className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
             />
