@@ -108,7 +108,6 @@ export function ContactSection() {
                     onChange={handleInputChange}
                     required
                     className="w-full"
-                    placeholder="Nome"
                   />
                 </div>
                 <div>
@@ -120,7 +119,6 @@ export function ContactSection() {
                     onChange={handleInputChange}
                     required
                     className="w-full"
-                    placeholder="E-mail"
                   />
                 </div>
               </div>
@@ -133,7 +131,6 @@ export function ContactSection() {
                   onChange={handleInputChange}
                   required
                   className="w-full"
-                  placeholder="Assunto"
                 />
               </div>
               <div>
@@ -145,7 +142,6 @@ export function ContactSection() {
                   rows={6}
                   required
                   className="w-full"
-                  placeholder="Escreva a sua mensagem"
                 />
               </div>
               <Button 
