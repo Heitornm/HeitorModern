@@ -120,6 +120,7 @@ export function ContactSection() {
                     onChange={handleInputChange}
                     required
                     className="w-full"
+                    placeholder="E-mail"
                   />
                 </div>
               </div>
@@ -132,6 +133,7 @@ export function ContactSection() {
                   onChange={handleInputChange}
                   required
                   className="w-full"
+                  placeholder="Assunto"
                 />
               </div>
               <div>
@@ -143,6 +145,7 @@ export function ContactSection() {
                   rows={6}
                   required
                   className="w-full"
+                  placeholder="Escreva a sua mensagem"
                 />
               </div>
               <Button 
@@ -186,7 +189,7 @@ export function ContactSection() {
               <h4 className="text-xl font-bold mb-2">Conversa Rápida?</h4>
               <p className="mb-4 opacity-90">Clique no botão abaixo para iniciar uma conversa no WhatsApp</p>
               <a 
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5511980170584"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-white text-green-600 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium"
