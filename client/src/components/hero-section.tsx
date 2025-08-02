@@ -9,7 +9,7 @@ export function HeroSection() {
           <div className="animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Bem vindo, eu sou
-              <span className="gradient-text block">Heitor Martins</span>
+              <span className="gradient-text block">Heitor do Nascimento Martins</span>
             </h1>
             <p className="text-xl mb-8 text-slate-600 dark:text-slate-400">
               Desenvolvedor de Sistemas, especializado em desenvolvimento web, mobile e desenvolvimento de softwares e aplicações em Python. 

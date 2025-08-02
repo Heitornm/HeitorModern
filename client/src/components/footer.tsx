@@ -14,14 +14,14 @@ export function Footer() {
 
   const socialLinks = [
     { href: "https://github.com/heitornm", icon: "fab fa-github" },
-    { href: "https://linkedin.com/in/heitornm", icon: "fab fa-linkedin" },
-    { href: "https://wa.me/5511999999999", icon: "fab fa-whatsapp" },
+    { href: "https://www.linkedin.com/in/heitor-nascimento-martins-2b2a33326/", icon: "fab fa-linkedin" },
+    { href: "https://wa.me/5511980170584", icon: "fab fa-whatsapp" },
   ]
 
   const contactDetails = [
-    { icon: "fas fa-envelope", text: "heitor.martins@email.com" },
-    { icon: "fab fa-whatsapp", text: "+55 (11) 99999-9999" },
-    { icon: "fas fa-map-marker-alt", text: "São Paulo, Brasil" },
+    { icon: "fas fa-envelope", text: "heitornmartins@email.com" },
+    { icon: "fab fa-whatsapp", text: "+55 (11) 98017-0584" },
+    { icon: "fas fa-map-marker-alt", text: "Diadema - São Paulo, Brasil" },
   ]
 
   return (
