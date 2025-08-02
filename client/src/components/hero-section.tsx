@@ -5,7 +5,7 @@ export function HeroSection() {
     <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-cyan-500/10"></div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="pt-12 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="pt-16 grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <h2 className="text-4xl md:text-6xl font-bold mb-6">
               Bem vindo, eu sou
