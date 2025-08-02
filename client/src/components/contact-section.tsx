@@ -48,16 +48,16 @@ export function ContactSection() {
     {
       icon: "fas fa-envelope",
       title: "Email",
-      value: "heitor.martins@email.com",
-      href: "mailto:heitor.martins@email.com",
+      value: "heitornmartins@email.com",
+      href: "mailto:heitornmartins@email.com",
       color: "blue-600/10",
       iconColor: "blue-600"
     },
     {
       icon: "fab fa-whatsapp",
       title: "WhatsApp",
-      value: "+55 (11) 99999-9999",
-      href: "https://wa.me/5511999999999",
+      value: "+55 (11) 98017-0584",
+      href: "https://wa.me/5511980170584",
       color: "green-500/10",
       iconColor: "green-500"
     },
@@ -65,7 +65,7 @@ export function ContactSection() {
       icon: "fab fa-linkedin",
       title: "LinkedIn",
       value: "linkedin.com/in/heitornm",
-      href: "https://linkedin.com/in/heitornm",
+      href: "https://www.linkedin.com/in/heitor-nascimento-martins-2b2a33326/",
       color: "blue-500/10",
       iconColor: "blue-500"
     },
@@ -108,6 +108,7 @@ export function ContactSection() {
                     onChange={handleInputChange}
                     required
                     className="w-full"
+                    placeholder="Nome"
                   />
                 </div>
                 <div>
