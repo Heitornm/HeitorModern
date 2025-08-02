@@ -31,8 +31,8 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 gradient-text">Heitor Martins</h3>
             <p className="text-slate-300 mb-4">
-              Desenvolvedor de Sistemas em formação, apaixonado por criar soluções inovadoras 
-              e impactantes através da tecnologia.
+              Desenvolvedor de Sistemas em formação, focado em criar soluções robustas e escalaveis, 
+              através das melhores praticas e tecnologia.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link, index) => (
