@@ -79,7 +79,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-slate-700 mt-12 pt-8 text-center text-slate-400">
-          <p>&copy; {currentYear} Heitor Martins. Todos os direitos reservados.</p>
+          <p>&copy; {currentYear} Heitor Martins. </p>
         </div>
       </div>
     </footer>
