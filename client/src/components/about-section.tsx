@@ -26,19 +26,19 @@ export function AboutSection() {
             </p>
             
             <p className="text-lg">
-              Estudo Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá, e gosto de estudar 
-              conteúdos que complementam o ensino na faculdade para reforçar o tema abordado.
+              Formado em Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá, e gosto de estudar 
+              conteúdos que complementam minha bagagem e facilitem os desafios. 
             </p>
             
             <p className="text-lg">
-              No momento busco ingressar e me desenvolver na área de desenvolvimento de sistemas, com sólida base 
+              Com sólida base 
               em programação multi-paradigma (Python, Java, PHP, JavaScript) e experiência em desenvolvimento 
               web (HTML5, CSS3) e mobile (React Native).
             </p>
             
             <p className="text-lg">
-              Sou proativo, curioso, empático, com pensamento crítico e senso de prioridade. Procuro ser produtivo, 
-              tenho ótimo relacionamento interpessoal, persuasão e negociação, resolução de problemas e inteligência emocional.
+              Proativo, curioso, empático, com pensamento crítico e senso de prioridade. Procuro ser produtivo, 
+              tenho ótimo relacionamento interpessoal, resolução de problemas e inteligência emocional.
             </p>
             
             <div className="grid grid-cols-2 gap-4 pt-6">
