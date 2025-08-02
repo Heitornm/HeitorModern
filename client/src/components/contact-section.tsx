@@ -6,10 +6,10 @@ import { useToast } from "@/hooks/use-toast"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: ""
+    name: "name",
+    email: "email",
+    subject: "assunto",
+    message: "mensagem"
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const { toast } = useToast()
@@ -32,7 +32,7 @@ export function ContactSection() {
         description: "Obrigado pelo contato. Responderei em breve!",
       })
       
-      setFormData({ name: "", email: "", subject: "", message: "" })
+      setFormData({ name: "nome", email: "heitornmartins@email.com", subject: "assunto", message: "mensagem" })
     } catch (error) {
       toast({
         title: "Erro ao enviar mensagem",
