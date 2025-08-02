@@ -31,13 +31,13 @@ export function HeroSection() {
             </div>
             
             <div className="flex space-x-6 mt-8">
-              <a href="https://github.com/heitornm" className="text-2xl hover:text-blue-600 transition-colors">
+              <a href="https://github.com/heitornm" className="text-2xl hover:text-blue-600 transition-colors" target="_blank">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com/in/heitornm" className="text-2xl hover:text-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/heitor-nascimento-martins-2b2a33326/" className="text-2xl hover:text-blue-600 transition-colors" target="_blank">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://wa.me/5511980170584" className="text-2xl hover:text-blue-600 transition-colors">
+              <a href="https://wa.me/5511980170584" className="text-2xl hover:text-blue-600 transition-colors" target="_blank">
                 <i className="fab fa-whatsapp"></i>
               </a>
             </div>
