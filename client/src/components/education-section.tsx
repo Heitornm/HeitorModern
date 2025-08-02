@@ -1,11 +1,4 @@
 export function EducationSection() {
-  const currentSemesterSubjects = [
-    "Análise de Dados",
-    "Introdução à programação de computadores",
-    "Inteligência Artificial para Desenvolvedores",
-    "Padrões de Projetos de Software com Java",
-    "Programação para dispositivos móveis em Android"
-  ]
 
   const completedSemesters = [
     {
@@ -37,17 +30,26 @@ export function EducationSection() {
         "Sistemas Operacionais",
         "Engenharia de Software"
       ]
-    },
-    {
+    },{
       semester: "4° Semestre",
       subjects: [
         "Tópicos de Big Data em Python",
         "POO em Java",
         "APPs Cloud, IoT e Indústria 4.0 em Python",
-        "Algoritmos e complexidade",
+        "Algoritimos e complexidade",
         "Desenvolvimento de software seguro"
       ]
-    }
+    },{
+      semester: "5° Semestre",
+      subjects: [
+        "Análise de Dados",
+        "Introdução à programação de computadores",
+        "Inteligência Artificial para Desenvolvedores",
+        "Padrões de Projetos de Software com Java",
+        "Programação para dispositivos móveis em Android"
+      ]
+    },
+     
   ]
 
   const certifications = [
@@ -112,29 +114,18 @@ export function EducationSection() {
                 <p className="text-slate-600 dark:text-slate-400">Universidade Estácio de Sá</p>
               </div>
             </div>
-            <p className="text-sm text-slate-500 mb-4">Janeiro 2023 - Julho 2025 (Cursando)</p>
+            <p className="text-sm text-slate-500 mb-4">Janeiro 2023 - Junho 2025</p>
             
             <div className="space-y-3">
               <div className="flex justify-between items-center">
                 <span className="text-sm font-medium">Progresso do Curso</span>
-                <span className="text-sm text-blue-600">5º Semestre</span>
+                <span className="text-sm text-blue-600">Concluido</span>
               </div>
               <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2">
                 <div className="bg-gradient-to-r from-blue-600 to-cyan-500 h-2 rounded-full" style={{width: "80%"}}></div>
               </div>
             </div>
-            
-            <div className="mt-6">
-              <h4 className="font-semibold mb-2">Disciplinas em Andamento (5º Semestre):</h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
-                {currentSemesterSubjects.map((subject, index) => (
-                  <span key={index} className="bg-white dark:bg-slate-700 px-3 py-1 rounded-full">
-                    {subject}
-                  </span>
-                ))}
-              </div>
-            </div>
-
+                        
             {/* Completed Semesters */}
             <div className="mt-6">
               <h4 className="font-semibold mb-4">Semestres Concluídos:</h4>

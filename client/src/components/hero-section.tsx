@@ -7,10 +7,10 @@ export function HeroSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h2 className="text-4xl md:text-6xl font-bold mb-6">
               Bem vindo, eu sou
               <span className="gradient-text block">Heitor do Nascimento Martins</span>
-            </h1>
+            </h2>
             <p className="text-xl mb-8 text-slate-600 dark:text-slate-400">
               Desenvolvedor de Sistemas, especializado em desenvolvimento web, mobile e desenvolvimento de softwares e aplicações em Python. 
               Formado em Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá.
