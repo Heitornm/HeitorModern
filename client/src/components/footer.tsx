@@ -19,7 +19,7 @@ export function Footer() {
   ]
 
   const contactDetails = [
-    { icon: "fas fa-envelope", text: "heitornmartins@email.com" },
+    { icon: "fas fa-envelope", text: "heitornmartins@gmail.com" },
     { icon: "fab fa-whatsapp", text: "+55 (11) 98017-0584" },
     { icon: "fas fa-map-marker-alt", text: "Diadema - São Paulo, Brasil" },
   ]

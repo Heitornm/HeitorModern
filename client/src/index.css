@@ -144,3 +144,6 @@
     to { opacity: 1; }
   }
 }
+body {
+  width: 95vh;
+}

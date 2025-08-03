@@ -32,7 +32,7 @@ export function ContactSection() {
         description: "Obrigado pelo contato. Responderei em breve!",
       })
       
-      setFormData({ name: "nome", email: "heitornmartins@email.com", subject: "assunto", message: "mensagem" })
+      setFormData({ name: "nome", email: "heitornmartins@gmail.com", subject: "assunto", message: "mensagem" })
     } catch (error) {
       toast({
         title: "Erro ao enviar mensagem",
@@ -48,8 +48,8 @@ export function ContactSection() {
     {
       icon: "fas fa-envelope",
       title: "Email",
-      value: "heitornmartins@email.com",
-      href: "mailto:heitornmartins@email.com",
+      value: "heitornmartins@gmail.com",
+      href: "mailto:heitornmartins@gmail.com",
       color: "blue-600/10",
       iconColor: "blue-600"
     },
