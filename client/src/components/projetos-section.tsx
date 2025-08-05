@@ -1,4 +1,4 @@
-export function projetos-section() {
+export function ProjectsSection() {
   const skillCategories = [
     {
       title: "Linguagens",
