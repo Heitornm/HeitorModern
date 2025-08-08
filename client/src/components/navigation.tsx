@@ -1,3 +1,4 @@
+import "react" 
 import { useState, useEffect } from "react"
 import { useTheme } from "@/hooks/use-theme"
 import { smoothScrollTo } from "@/lib/smooth-scroll"
@@ -21,6 +22,7 @@ export function Navigation() {
     { href: "#experience", label: "Experiência" },
     { href: "#education", label: "Educação" },
     { href: "#skills", label: "Habilidades" },
+    { href: "#projetos", label: "Projetos" },
     { href: "#contact", label: "Contato" },
   ]
 
@@ -28,13 +30,13 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div 
+          <div
             className="text-xl font-bold gradient-text cursor-pointer"
             onClick={() => handleNavClick("#home")}
           >
             Heitor Martins
           </div>
-          
+
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <button
@@ -46,9 +48,9 @@ export function Navigation() {
               </button>
             ))}
           </div>
-          
+
           <div className="flex items-center space-x-4">
-            <button 
+            <button
               onClick={toggleTheme}
               className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
             >
@@ -58,8 +60,8 @@ export function Navigation() {
                 <i className="fas fa-sun"></i>
               )}
             </button>
-            
-            <button 
+
+            <button
               className="md:hidden p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
@@ -68,7 +70,7 @@ export function Navigation() {
           </div>
         </div>
       </div>
-      
+
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
