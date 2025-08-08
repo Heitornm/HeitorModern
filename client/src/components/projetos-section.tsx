@@ -2,7 +2,7 @@ export function ProjetosSection() {
   const skillCategories = [
     {
       title: "Gerenciador de Tarefas",
-      icon: "fas fa-code",
+      icon: "tarefas fas fa",
       color: "blue-600/10",
       iconColor: "blue-600",
       skills: [
