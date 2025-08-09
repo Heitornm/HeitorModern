@@ -1,8 +1,4 @@
 export function ProjetosSection() {
-
-import React from 'react';
-import ProjectCard from './ProjectCard';
-
 const projects = [
   {
     id: 1,
