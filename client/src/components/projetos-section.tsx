@@ -1,5 +1,5 @@
 export function ProjetosSection() {
-const projects = [
+/*const projects = [
   {
     id: 1,
     title: 'E-commerce Website',
@@ -69,7 +69,7 @@ const ProjectsSection: React.FC = () => {
 };
 
 export default ProjectsSection;
-
+*/
 }
   /*
   const skillCategories = [
