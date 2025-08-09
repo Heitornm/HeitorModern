@@ -3,7 +3,7 @@ const projects = [
   {
     id: 1,
     title: 'E-commerce Website',
-    description: 'Desenvolvimento de uma plataforma completa de e-commerce com sistema de pagamento integrado, gerenciamento de estoque e painel administrativo.',
+    description: 'Futuro desenvolvimento de uma plataforma completa de e-commerce com sistema de pagamento integrado, gerenciamento de estoque e painel administrativo.',
     technologies: [
       { name: 'React', color: 'bg-blue-100 text-blue-800' },
       { name: 'Node.js', color: 'bg-green-100 text-green-800' },
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Task Manager App',
+    title: 'Gerenciador de tarefas',
     description: 'Aplicativo de gerenciamento de tarefas com recursos de categorização, lembretes e estatísticas de produtividade.',
     technologies: [
       { name: 'JavaScript', color: 'bg-yellow-100 text-yellow-800' },
