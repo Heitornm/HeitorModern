@@ -35,9 +35,9 @@ const projetos = [
       { name: "Express", color: "red" },
       { name: "PostgreSQL", color: "blue" }
     ],
-    projectLink: "#",
-    githubLink: "#",
-    externalLink: "#"
+    projectLink: "https://heitornm.github.io/taskManager/",
+    githubLink: "https://heitornm.github.io/taskManager/",
+    externalLink: "https://heitornm.github.io/taskManager/"
   },
   {
     title: "Dashboard Analytics",
@@ -73,7 +73,7 @@ export function ProjetosSection() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Projetos</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Alguns dos projetos que desenvolvi utilizando tecnologias modernas
+            Alguns dos projetos que desenvolvi 
           </p>
         </div>
         
