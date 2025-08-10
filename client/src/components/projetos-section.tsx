@@ -27,7 +27,7 @@ const projetos = [
   },
   {
     title: "Task Manager App",
-    description: "Aplicativo de gerenciamento de tarefas com recursos de categorização, lembretes e estatísticas de produtividade.",
+    description: "Aplicativo de gerenciamento de tarefas básico,ok com recursos de categorização, lembretes e estatísticas de produtividade.",
     iconClass: "fas fa-tasks",
     iconBgClass: "bg-gradient-to-br from-green-500 to-teal-600",
     techs: [
