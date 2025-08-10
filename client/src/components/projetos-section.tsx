@@ -89,14 +89,14 @@ export function ProjetosSection() {
                   {projeto.techs.map(renderTechnology)}
                 </div>
                 <div className="flex justify-between items-center">
-                  <a href={projeto.projectLink} className="text-purple-600 hover:text-purple-800 font-medium text-sm flex items-center">
+                  <a href={projeto.projectLink} className="text-purple-600 hover:text-purple-800 font-medium text-sm flex items-center" target="_blank">
                     Ver projeto <i className="fas fa-arrow-right ml-2"></i>
                   </a>
                   <div className="flex space-x-3">
-                    <a href={projeto.githubLink} className="text-gray-400 hover:text-gray-600">
+                    <a href={projeto.githubLink} className="text-gray-400 hover:text-gray-600" target="_blank">
                       <i className="fab fa-github"></i>
                     </a>
-                    <a href={projeto.externalLink} className="text-gray-400 hover:text-gray-600">
+                    <a href={projeto.externalLink} className="text-gray-400 hover:text-gray-600" target="_blank">
                       <i className="fas fa-external-link-alt"></i>
                     </a>
                   </div>
