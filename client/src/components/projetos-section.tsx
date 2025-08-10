@@ -67,10 +67,8 @@ const ProjectsSection: React.FC = () => {
     </section>
   );
 };
-
-export default ProjectsSection;
-*/
 }
+
   /*
   const skillCategories = [
     {
