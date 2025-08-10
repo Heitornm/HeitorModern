@@ -21,9 +21,9 @@ const projetos = [
       { name: "Node.js", color: "green" },
       { name: "MongoDB", color: "purple" }
     ],
-    projectLink: "#",
-    githubLink: "#",
-    externalLink: "#"
+    projectLink: "",
+    githubLink: "",
+    externalLink: ""
   },
   {
     title: "Task Manager App",
