@@ -1,5 +1,5 @@
 export function ProjetosSection() {
-/*const projects = [
+const projects = [
   {
     id: 1,
     title: 'E-commerce Website',
@@ -26,9 +26,9 @@ export function ProjetosSection() {
     ],
     iconClass: 'fas fa-tasks',
     iconBackground: 'bg-gradient-to-br from-green-500 to-teal-600',
-    projectLink: '#',
-    githubLink: '#',
-    liveLink: '#',
+    projectLink: 'https://heitornm.github.io/taskManager/',
+    githubLink: 'https://heitornm.github.io/taskManager/',
+    liveLink: 'https://heitornm.github.io/taskManager/',
   },
   {
     id: 3,
