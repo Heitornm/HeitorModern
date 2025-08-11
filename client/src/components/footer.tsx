@@ -9,6 +9,7 @@ export function Footer() {
     { href: "#experience", label: "Experiência" },
     { href: "#education", label: "Educação" },
     { href: "#skills", label: "Skills" },
+    { href: "#projetos", label: "Projetos" },
     { href: "#contact", label: "Contato" },
   ]
 
