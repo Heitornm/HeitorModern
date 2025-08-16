@@ -12,20 +12,6 @@ const App = () => {
 // Dados de exemplo para os projetos
 const projetos = [
   {
-    title: "E-commerce Website",
-    description: "Desenvolvimento de uma plataforma completa de e-commerce com sistema de pagamento integrado, gerenciamento de estoque e painel administrativo.",
-    iconClass: "fas fa-shopping-cart",
-    iconBgClass: "bg-gradient-to-br from-blue-500 to-purple-600",
-    techs: [
-      { name: "React", color: "blue" },
-      { name: "Node.js", color: "green" },
-      { name: "MongoDB", color: "purple" }
-    ],
-    projectLink: "",
-    githubLink: "",
-    externalLink: ""
-  },
-  {
     title: "Task Manager App",
     description: "Aplicativo de gerenciamento de tarefas básico,ok com recursos de categorização, lembretes e estatísticas de produtividade.",
     iconClass: "fas fa-tasks",
@@ -38,20 +24,6 @@ const projetos = [
     projectLink: "https://heitornm.github.io/taskManager/",
     githubLink: "https://heitornm.github.io/taskManager/",
     externalLink: "https://heitornm.github.io/taskManager/"
-  },
-  {
-    title: "Dashboard Analytics",
-    description: "Painel de análise de dados com visualizações interativas e relatórios personalizáveis para empresas.",
-    iconClass: "fas fa-chart-line",
-    iconBgClass: "bg-gradient-to-br from-purple-500 to-pink-600",
-    techs: [
-      { name: "React", color: "blue" },
-      { name: "D3.js", color: "orange" },
-      { name: "Firebase", color: "yellow" }
-    ],
-    projectLink: "#",
-    githubLink: "#",
-    externalLink: "#"
   }
 ];
 
@@ -73,7 +45,7 @@ export function ProjetosSection() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Projetos</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-6"></div>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projetos.map((projeto, index) => (
             <div key={index} className="card-hover bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
