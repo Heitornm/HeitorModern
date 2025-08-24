@@ -12,8 +12,8 @@ const App = () => {
 // Dados de exemplo para os projetos
 const projetos = [
   {
-    title: "Task Manager App",
-    description: "Aplicativo de gerenciamento de tarefas básico,ok com recursos de categorização, lembretes e estatísticas de produtividade.",
+    title: "Gerenciador de tarefas",
+    description: "Aplicativo de gerenciamento de tarefas básico, com recursos de categorização, lembretes e estatísticas de produtividade.",
     iconClass: "fas fa-tasks",
     iconBgClass: "bg-gradient-to-br from-green-500 to-teal-600",
     techs: [
