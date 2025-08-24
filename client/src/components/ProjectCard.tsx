@@ -45,7 +45,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             Ver projeto <i className="fas fa-arrow-right ml-2"></i>
           </a>
           <div className="flex space-x-3">
-            <a href={githubLink} className="text-gray-400 hover:text-gray-600">
+            <a href="https://github.com/Heitornm/taskManager" className="text-gray-400 hover:text-gray-600">
               <i className="fab fa-github"></i>
             </a>
             <a href={liveLink} className="text-gray-400 hover:text-gray-600">
