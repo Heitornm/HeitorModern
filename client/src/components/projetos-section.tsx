@@ -22,7 +22,7 @@ const projetos = [
       { name: "PostgreSQL", color: "blue" }
     ],
     projectLink: "https://heitornm.github.io/taskManager/",
-    githubLink: "https://heitornm.github.io/taskManager/",
+    githubLink: "https://github.com/Heitornm/taskManager",
     externalLink: "https://heitornm.github.io/taskManager/"
   }
 ];
