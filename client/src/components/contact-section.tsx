@@ -26,12 +26,12 @@ export function ContactSection() {
     try {
       // Simulate form submission
       await new Promise(resolve => setTimeout(resolve, 1000))
-      
+
       toast({
         title: "Mensagem enviada!",
         description: "Obrigado pelo contato. Responderei em breve!",
       })
-      
+
       setFormData({ name: "nome", email: "heitornmartins@gmail.com", subject: "assunto", message: "mensagem" })
     } catch (error) {
       toast({
@@ -88,11 +88,11 @@ export function ContactSection() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-            Estou sempre aberto a novas oportunidades e colaborações. 
+            Estou sempre aberto a novas oportunidades e colaborações.
             Vamos conversar sobre como posso contribuir com seu projeto!
           </p>
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="card-hover bg-slate-50 dark:bg-slate-700 p-8 rounded-xl">
@@ -103,7 +103,7 @@ export function ContactSection() {
                   <label className="block text-sm font-medium mb-2">Nome</label>
                   <Input
                     type="text"
-                    name="name"
+                    placeholder="nome"
                     value={formData.name}
                     onChange={handleInputChange}
                     required
@@ -144,8 +144,8 @@ export function ContactSection() {
                   className="w-full"
                 />
               </div>
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 disabled={isSubmitting}
                 className="w-full bg-blue-600 hover:bg-blue-700"
               >
@@ -158,7 +158,7 @@ export function ContactSection() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold mb-6">Informações de Contato</h3>
-              
+
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <a
@@ -179,12 +179,12 @@ export function ContactSection() {
                 ))}
               </div>
             </div>
-            
+
             {/* Quick WhatsApp Contact */}
             <div className="bg-gradient-to-r from-green-500 to-green-600 p-6 rounded-xl text-white">
               <h4 className="text-xl font-bold mb-2">Conversa Rápida?</h4>
               <p className="mb-4 opacity-90">Clique no botão abaixo para iniciar uma conversa no WhatsApp</p>
-              <a 
+              <a
                 href="https://wa.me/5511980170584"
                 target="_blank"
                 rel="noopener noreferrer"
