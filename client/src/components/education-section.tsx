@@ -54,6 +54,17 @@ export function EducationSection() {
 
   const certifications = [
     {
+      institution: "Universidade Estácio de Sá",
+      courses: [
+        "Desenvolvimento Rápido de Aplicações em Python Para Cloud, Iot e Bigdata",
+        "Programação de Algoritmos Escaláveis",
+        "Programação de Sistemas de Informação",
+        "Programação Para Internet",
+        "Programação Para Dispositivos Móveis"
+      ],
+      color: "green-500",
+      status: "Certificado"
+    },{
       institution: "Fundação Bradesco",
       courses: [
         "Excel - intermediário",
