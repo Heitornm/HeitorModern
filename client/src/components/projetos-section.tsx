@@ -3,7 +3,7 @@ import React from 'react';
 // O componente principal App que renderiza a seção de projetos
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-50 font-sans text-gray-800">
+    <div className="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
       <ProjetosSection />
     </div>
   );
