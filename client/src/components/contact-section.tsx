@@ -6,10 +6,10 @@ import { useToast } from "@/hooks/use-toast"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
-    name: "name",
-    email: "email",
-    subject: "assunto",
-    message: "mensagem"
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const { toast } = useToast()
@@ -103,8 +103,8 @@ export function ContactSection() {
                   <label className="block text-sm font-medium mb-2">Nome</label>
                   <Input
                     type="text"
-                    placeholder="nome"
-                    name=""
+                    placeholder="Nome"
+                    name="name"
                     value={formData.name}
                     onChange={handleInputChange}
                     required
@@ -115,7 +115,8 @@ export function ContactSection() {
                   <label className="block text-sm font-medium mb-2">Email</label>
                   <Input
                     type="email"
-                    name=""
+                    placeholder="E-mail"
+                    name="email"
                     value={formData.email}
                     onChange={handleInputChange}
                     required
@@ -127,6 +128,7 @@ export function ContactSection() {
                 <label className="block text-sm font-medium mb-2">Assunto</label>
                 <Input
                   type="text"
+                  placeholder="Assunto"
                   name="subject"
                   value={formData.subject}
                   onChange={handleInputChange}
@@ -137,6 +139,8 @@ export function ContactSection() {
               <div>
                 <label className="block text-sm font-medium mb-2">Mensagem</label>
                 <Textarea
+                  type="text"
+                  placeholder="Mensagem"
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
