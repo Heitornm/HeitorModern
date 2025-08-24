@@ -104,6 +104,7 @@ export function ContactSection() {
                   <Input
                     type="text"
                     placeholder="nome"
+                    name=""
                     value={formData.name}
                     onChange={handleInputChange}
                     required
@@ -114,7 +115,7 @@ export function ContactSection() {
                   <label className="block text-sm font-medium mb-2">Email</label>
                   <Input
                     type="email"
-                    name="email"
+                    name=""
                     value={formData.email}
                     onChange={handleInputChange}
                     required
