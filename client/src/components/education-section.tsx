@@ -80,14 +80,12 @@ export function EducationSection() {
     {
       institution: "UDEMY",
       courses: [
-        "React",
-        "componentes",
+        "React JS",
+        "Componentes",
         "JSX",
         "hooks",
-        "projetos com React JS"
-
       ],
-      color: "green-500",
+      color: "blue-500",
       status: "Concluído"
     },
     {
