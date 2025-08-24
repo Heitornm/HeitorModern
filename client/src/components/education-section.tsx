@@ -30,7 +30,7 @@ export function EducationSection() {
         "Sistemas Operacionais",
         "Engenharia de Software"
       ]
-    },{
+    }, {
       semester: "4° Semestre",
       subjects: [
         "Tópicos de Big Data em Python",
@@ -39,7 +39,7 @@ export function EducationSection() {
         "Algoritimos e complexidade",
         "Desenvolvimento de software seguro"
       ]
-    },{
+    }, {
       semester: "5° Semestre",
       subjects: [
         "Análise de Dados",
@@ -49,7 +49,7 @@ export function EducationSection() {
         "Programação para dispositivos móveis em Android"
       ]
     },
-     
+
   ]
 
   const certifications = [
@@ -101,7 +101,7 @@ export function EducationSection() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto"></div>
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Current Education */}
           <div className="card-hover bg-gradient-to-br from-blue-600/5 to-cyan-500/5 p-8 rounded-xl border border-blue-600/20">
@@ -115,17 +115,17 @@ export function EducationSection() {
               </div>
             </div>
             <p className="text-sm text-slate-500 mb-4">Janeiro 2023 - Junho 2025</p>
-            
+
             <div className="space-y-3">
               <div className="flex justify-between items-center">
                 <span className="text-sm font-medium">Progresso do Curso</span>
                 <span className="text-sm text-blue-600">Concluido</span>
               </div>
               <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2">
-                <div className="bg-gradient-to-r from-blue-600 to-cyan-500 h-2 rounded-full" style={{width: "100%"}}></div>
+                <div className="bg-gradient-to-r from-blue-600 to-cyan-500 h-2 rounded-full" style={{ width: "100%" }}></div>
               </div>
             </div>
-                        
+
             {/* Completed Semesters */}
             <div className="mt-6">
               <h4 className="font-semibold mb-4">Semestres Concluídos:</h4>
@@ -145,7 +145,7 @@ export function EducationSection() {
           {/* Certifications */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold mb-6">Certificações & Cursos</h3>
-            
+
             {certifications.map((cert, index) => (
               <div key={index} className={`card-hover bg-white dark:bg-slate-700 p-4 rounded-lg shadow border-l-4 border-${cert.color}`}>
                 <div className="flex justify-between items-start mb-2">
