@@ -61,20 +61,6 @@ export function SkillsSection() {
         { name: "Kotlin", color: "orange" },
         { name: "Jetpack", color: "purple" }
       ]
-    },
-    {
-      title: "Soft Skills",
-      icon: "fas fa-users",
-      color: "pink-500/10",
-      iconColor: "pink-500",
-      skills: [
-        "Relacionamento interpessoal",
-        "Pensamento crítico",
-        "Resolução de problemas",
-        "Inteligência emocional",
-        "Comunicação clara",
-        "Trabalho em equipe"
-      ]
     }
   ]
 
