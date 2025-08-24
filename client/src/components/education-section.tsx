@@ -85,8 +85,8 @@ export function EducationSection() {
         "JSX",
         "hooks",
       ],
-      color: "blue-500",
-      status: "Concluído"
+      color: "green-500",
+      status: "Certificado"
     },
     {
       institution: "UDEMY",
