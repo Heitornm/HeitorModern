@@ -20,7 +20,7 @@ export function Navigation() {
     { href: "#home", label: "Início" },
     { href: "#about", label: "Sobre" },
     { href: "#experience", label: "Experiência" },
-    { href: "#education", label: "Educação" },
+    { href: "#education", label: "Formação" },
     { href: "#skills", label: "Habilidades" },
     { href: "#projetos", label: "Projetos" },
     { href: "#contact", label: "Contato" },

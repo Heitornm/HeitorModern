@@ -8,7 +8,7 @@ export function HeroSection() {
         <div className="pt-16 grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <h2 className="text-4xl md:text-6xl font-bold mb-6">
-              Bem vindo, eu sou
+              Bem vindo, me chamo 
               <span className="gradient-text block">Heitor do Nascimento Martins</span>
             </h2>
             <p className="text-xl mb-8 text-slate-600 dark:text-slate-400">
