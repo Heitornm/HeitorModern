@@ -35,9 +35,9 @@ const projetos = [
       { name: "Express", color: "red" },
       { name: "PostgreSQL", color: "blue" }
     ],
-    projectLink: "",
-    githubLink: "",
-    externalLink: ""
+    projectLink: "https://veronicaxavierruiz.github.io/Ve_Tattoo/",
+    githubLink: "https://github.com/Heitornm/Ve_Tattoo",
+    externalLink: "https://veronicaxavierruiz.github.io/Ve_Tattoo/"
   },
   {
     title: "Loja - Monica Viviane Fragrancias",
