@@ -24,6 +24,20 @@ const projetos = [
     projectLink: "https://heitornm.github.io/taskManager/",
     githubLink: "https://github.com/Heitornm/taskManager",
     externalLink: "https://heitornm.github.io/taskManager/"
+  },
+  {
+    title: "Landin Page - Ve_Tattoo",
+    description: "Desenvolvimento de uma landing page. Sob desenvolvimento.",
+    iconClass: "fas fa-tasks",
+    iconBgClass: "bg-gradient-to-br from-green-500 to-teal-600",
+    techs: [
+      { name: "JavaScript", color: "yellow" },
+      { name: "Express", color: "red" },
+      { name: "PostgreSQL", color: "blue" }
+    ],
+    projectLink: "https://heitornm.github.io/taskManager/",
+    githubLink: "https://github.com/Heitornm/taskManager",
+    externalLink: "https://heitornm.github.io/taskManager/"
   }
 ];
 
