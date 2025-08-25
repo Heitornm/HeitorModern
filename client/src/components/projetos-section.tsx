@@ -35,9 +35,23 @@ const projetos = [
       { name: "Express", color: "red" },
       { name: "PostgreSQL", color: "blue" }
     ],
-    projectLink: "https://heitornm.github.io/taskManager/",
-    githubLink: "https://github.com/Heitornm/taskManager",
-    externalLink: "https://heitornm.github.io/taskManager/"
+    projectLink: "",
+    githubLink: "",
+    externalLink: ""
+  },
+  {
+    title: "Loja - Monica Viviane Fragrancias",
+    description: "Desenvolvimento de uma loja online. Sob desenvolvimento.",
+    iconClass: "fas fa-tasks",
+    iconBgClass: "bg-gradient-to-br from-green-500 to-teal-600",
+    techs: [
+      { name: "JavaScript", color: "yellow" },
+      { name: "Express", color: "red" },
+      { name: "PostgreSQL", color: "blue" }
+    ],
+    projectLink: "",
+    githubLink: "",
+    externalLink: ""
   }
 ];
 
