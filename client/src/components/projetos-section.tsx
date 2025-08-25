@@ -15,7 +15,7 @@ const projetos = [
     title: "Gerenciador de tarefas",
     description: "Aplicativo de gerenciamento de tarefas básico, com recursos de categorização, lembretes e estatísticas de produtividade.",
     iconClass: "fas fa-tasks",
-    iconBgClass: "bg-gradient-to-br from-green-500 to-teal-600",
+    iconBgClass: "bg-gradient-to-br from-cyan-500 to-cyan-600",
     techs: [
       { name: "JavaScript", color: "yellow" },
       { name: "Express", color: "red" },
@@ -43,7 +43,7 @@ const projetos = [
     title: "Loja - Monica Viviane Fragrancias",
     description: "Desenvolvimento de uma loja online. Sob desenvolvimento.",
     iconClass: "fas fa-tasks",
-    iconBgClass: "bg-gradient-to-br from-green-500 to-teal-600",
+    iconBgClass: "bg-gradient-to-br from-fuchsia-500 to-fuchsia-600",
     techs: [
       { name: "JavaScript", color: "yellow" },
       { name: "Express", color: "red" },
