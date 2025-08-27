@@ -43,7 +43,7 @@ const projetos = [
     title: "Loja - Monica Viviane Fragrancias",
     description: "Desenvolvimento de uma loja online. Sob desenvolvimento.",
     iconClass: "fas fa-tasks",
-    iconBgClass: "bg-gradient-to-br from-indigo-500 to-indigo-600",
+    iconBgClass: "bg-gradient-to-br from-indigo-500 to-indigo -600",
     techs: [
       { name: "JavaScript", color: "yellow" },
       { name: "Express", color: "red" },
