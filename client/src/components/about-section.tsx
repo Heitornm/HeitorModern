@@ -19,17 +19,7 @@ export function AboutSection() {
           </div>
           
           <div className="space-y-6">
-            <p className="text-lg">
-              Sempre atuei com atendimento ao cliente na área comercial, tenho um bom relacionamento interpessoal, 
-              bom atendimento e me expresso de forma clara. Hoje atuo na área de TI com atendimento help-desk 
-              auxiliando usuários e solucionando questões de sistemas e hardwares.
-            </p>
-            
-            <p className="text-lg">
-              Formado em Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá, e gosto de estudar 
-              conteúdos que complementam minha bagagem e facilitem meus desafios. 
-            </p>
-            
+           
             <p className="text-lg">
               Com sólida base 
               em programação multi-paradigma (Python, Java, PHP, JavaScript) e experiência em desenvolvimento 
@@ -40,7 +30,9 @@ export function AboutSection() {
               Proativo, curioso, empático, com pensamento crítico e senso de prioridade. Procuro ser produtivo, 
               tenho ótimo relacionamento interpessoal, resolução de problemas e inteligência emocional.
             </p>
-            
+            <p className="text-lg">
+              Procuro sempre me atualizar com as tecnologias do mercado para trazer as melhores soluções para meus projetos.
+            </p>
             <div className="grid grid-cols-2 gap-4 pt-6">
               <div className="text-center p-4 bg-slate-50 dark:bg-slate-700 rounded-lg">
                 <div className="text-2xl font-bold text-blue-600">2+</div>
