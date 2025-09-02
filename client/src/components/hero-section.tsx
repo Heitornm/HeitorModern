@@ -11,11 +11,11 @@ export function HeroSection() {
               <span className="gradient-text block">Heitor Martins</span>
             </h2>
             <p className="text-2xl mb-8 font-semibold text-gray-800 dark:text-slate-200">
-              Desenvolvedor Web e Mobile | Especialista em JavaScript e Python 
-            </p>
+              Desenvolvedor Web e Mobile 
             <p className="text-xl text-slate-600 dark:text-slate-400">
-              Ajudando a construir o futuro digital, uma linha de código por vez.
+              Ajudando a inserir empresas no mundo digital, uma linha de código por vez.<br></br>
             </p>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => smoothScrollTo("#contact")}
