@@ -15,7 +15,7 @@ export function HeroSection() {
             <p className="text-xl text-slate-600 dark:text-slate-400">
               Ajudando a inserir empresas no mundo digital, uma linha de código por vez.
             </p>
-            <br></br>
+            <p></p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => smoothScrollTo("#contact")}
