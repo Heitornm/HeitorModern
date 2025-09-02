@@ -8,12 +8,13 @@ export function HeroSection() {
         <div className="pt-16 grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <h2 className="text-4xl md:text-6xl font-bold mb-6">
-              Bem vindo, me chamo
-              <span className="gradient-text block">Heitor do Nascimento Martins</span>
+              <span className="gradient-text block">Heitor Martins</span>
             </h2>
-            <p className="text-xl mb-8 text-slate-600 dark:text-slate-400">
-              Desenvolvedor de Sistemas, especializado em desenvolvimento web, mobile e desenvolvimento de softwares e aplicações em Python.
-              Formado em Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá.
+            <p className="text-2xl mb-8 font-semibold text-gray-800 dark:text-slate-200">
+              Desenvolvedor Web e Mobile | Especialista em JavaScript e Python 
+            </p>
+            <p className="text-xl text-slate-600 dark:text-slate-400">
+              Ajudando a construir o futuro digital, uma linha de código por vez.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
