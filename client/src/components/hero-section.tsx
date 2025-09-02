@@ -44,11 +44,33 @@ export function HeroSection() {
           </div>
           
           <div className="animate-fade-in hidden lg:block">
-            <img 
-              src="https://raw.githubusercontent.com/Heitornm/hnmartins/refs/heads/main/img/heitorimg.png" 
-              alt="Heitor Martins - Desenvolvedor de Sistemas" 
-              className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
-            />
+            <h3 className="text-2xl font-bold mb-6 text-gray-900">Tecnologias</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+              <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                <i className="fab fa-html5 text-3xl text-orange-500 mb-2"></i>
+                <p className="text-sm font-medium text-gray-700">HTML5</p>
+              </div>
+              <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                <i className="fab fa-css3-alt text-3xl text-blue-500 mb-2"></i>
+                <p className="text-sm font-medium text-gray-700">CSS3</p>
+              </div>
+              <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                <i className="fab fa-js-square text-3xl text-yellow-500 mb-2"></i>
+                <p className="text-sm font-medium text-gray-700">JavaScript</p>
+              </div>
+              <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                <i className="fab fa-react text-3xl text-blue-400 mb-2"></i>
+                <p className="text-sm font-medium text-gray-700">React</p>
+              </div>
+              <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                <i className="fab fa-node-js text-3xl text-green-500 mb-2"></i>
+                <p className="text-sm font-medium text-gray-700">Node.js</p>
+              </div>
+              <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                <i className="fab fa-python text-3xl text-blue-600 mb-2"></i>
+                <p className="text-sm font-medium text-gray-700">Python</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
