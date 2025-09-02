@@ -21,9 +21,9 @@ export function AboutSection() {
           <div className="space-y-6">
            
             <p className="text-lg">
-              Com sólida base 
+              Conhecimentos 
               em programação multi-paradigma (Python, Java, PHP, JavaScript) e experiência em desenvolvimento 
-              web (HTML5, CSS3) e mobile (React Native).
+              web (HTML5, CSS3) e mobile (React Native, Kotlin).
             </p>
             
             <p className="text-lg">
