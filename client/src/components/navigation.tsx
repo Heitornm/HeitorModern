@@ -18,11 +18,11 @@ export function Navigation() {
 
   const navItems = [
     { href: "#home", label: "Início" },
+    { href: "#projetos", label: "Projetos" },
     { href: "#about", label: "Sobre" },
     { href: "#experience", label: "Experiência" },
     { href: "#education", label: "Formação" },
     { href: "#skills", label: "Habilidades" },
-    { href: "#projetos", label: "Projetos" },
     { href: "#contact", label: "Contato" },
   ]
 
