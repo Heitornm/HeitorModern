@@ -1,3 +1,4 @@
+// Versão corrigida para você copiar e colar
 import { smoothScrollTo } from "@/lib/smooth-scroll"
 
 export function HeroSection() {
@@ -11,11 +12,12 @@ export function HeroSection() {
               <span className="gradient-text block">Heitor Martins</span>
             </h2>
             <p className="text-2xl mb-8 font-semibold text-gray-800 dark:text-slate-200">
-              Desenvolvedor Web e Mobile 
+              Desenvolvedor Web e Mobile
+            </p>
             <p id="paragrafoColado" className="text-xl text-slate-600 dark:text-slate-400">
               Ajudando a inserir empresas no mundo digital, uma linha de código por vez.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => smoothScrollTo("#contact")}
@@ -80,5 +82,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
