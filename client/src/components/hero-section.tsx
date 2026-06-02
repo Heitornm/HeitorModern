@@ -15,7 +15,7 @@ export function HeroSection() {
               Desenvolvedor Web e Mobile
             </p>
             <p id="paragrafoColado" className="text-xl text-slate-600 dark:text-slate-400">
-              Ajudando a inserir empresas no mundo digital, uma linha de código por vez.
+              Transformando ideias complexas em código limpo, eficiente e escalável.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
