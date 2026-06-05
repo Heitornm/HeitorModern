@@ -5,12 +5,14 @@ import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/hooks/use-toast"
 
 export function ContactSection() {
-  const [formData, setFormData] = useState({
+  const initialFormState = {
     name: "",
     email: "",
     subject: "",
     message: ""
-  })
+  }
+
+  const [formData, setFormData] = useState(initialFormState)
   const [isSubmitting, setIsSubmitting] = useState(false)
   const { toast } = useToast()
 
@@ -23,16 +25,49 @@ export function ContactSection() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    try {
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 1000))
+    // Acessando a variável de ambiente configurada no Render (padrão do Vite)
+    const accessKey = import.meta.env.VITE_WEB3FORMS_KEY
 
+    if (!accessKey) {
       toast({
-        title: "Mensagem enviada!",
-        description: "Obrigado pelo contato. Responderei em breve!",
+        title: "Erro de configuração",
+        description: "A chave do formulário não foi encontrada nas variáveis de ambiente.",
+        variant: "destructive"
+      })
+      setIsSubmitting(false)
+      return
+    }
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          access_key: accessKey,
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          from_name: "Portfólio - HeitorModern"
+        })
       })
 
-      setFormData({ name: "nome", email: "heitornmartins@gmail.com", subject: "assunto", message: "mensagem" })
+      const data = await response.json()
+
+      if (data.success) {
+        toast({
+          title: "Mensagem enviada!",
+          description: "Obrigado pelo contato. Responderei em breve!",
+        })
+
+        // CORREÇÃO: Limpando o formulário para strings vazias de verdade
+        setFormData(initialFormState)
+      } else {
+        throw new Error(data.message || "Erro ao processar envio")
+      }
     } catch (error) {
       toast({
         title: "Erro ao enviar mensagem",
@@ -44,38 +79,39 @@ export function ContactSection() {
     }
   }
 
+  // CORREÇÃO: Classes completas mapeadas explicitamente para o Tailwind não removê-las no Purge do build
   const contactInfo = [
     {
       icon: "fas fa-envelope",
       title: "Email",
       value: "heitornmartins@gmail.com",
       href: "mailto:heitornmartins@gmail.com",
-      color: "blue-600/10",
-      iconColor: "blue-600"
+      bgClass: "bg-blue-600/10",
+      iconClass: "text-blue-600"
     },
     {
       icon: "fab fa-whatsapp",
       title: "WhatsApp",
       value: "+55 (11) 98017-0584",
       href: "https://wa.me/5511980170584",
-      color: "green-500/10",
-      iconColor: "green-500"
+      bgClass: "bg-green-500/10",
+      iconClass: "text-green-500"
     },
     {
       icon: "fab fa-linkedin",
       title: "LinkedIn",
       value: "linkedin.com/in/heitornm",
       href: "https://www.linkedin.com/in/heitor-nascimento-martins-2b2a33326/",
-      color: "blue-500/10",
-      iconColor: "blue-500"
+      bgClass: "bg-blue-500/10",
+      iconClass: "text-blue-500"
     },
     {
       icon: "fab fa-github",
       title: "GitHub",
       value: "github.com/heitornm",
       href: "https://github.com/heitornm",
-      color: "gray-800/10",
-      iconColor: "gray-800"
+      bgClass: "bg-gray-800/10 dark:bg-slate-200/10",
+      iconClass: "text-gray-800 dark:text-slate-200"
     }
   ]
 
@@ -139,7 +175,6 @@ export function ContactSection() {
               <div>
                 <label className="block text-sm font-medium mb-2">Mensagem</label>
                 <Textarea
-                  type="text"
                   placeholder="Mensagem"
                   name="message"
                   value={formData.message}
@@ -173,8 +208,9 @@ export function ContactSection() {
                     rel="noopener noreferrer"
                     className="flex items-center space-x-4 hover:transform hover:scale-105 transition-transform"
                   >
-                    <div className={`w-12 h-12 bg-${info.color} rounded-lg flex items-center justify-center`}>
-                      <i className={`${info.icon} text-${info.iconColor}`}></i>
+                    {/* CORREÇÃO: Utilizando as novas propriedades estáticas para estilização segura */}
+                    <div className={`w-12 h-12 ${info.bgClass} rounded-lg flex items-center justify-center`}>
+                      <i className={`${info.icon} ${info.iconClass}`}></i>
                     </div>
                     <div>
                       <h4 className="font-semibold">{info.title}</h4>
