@@ -8,26 +8,26 @@ export function AboutSection() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto"></div>
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <img 
-              src="https://raw.githubusercontent.com/Heitornm/hnmartins/refs/heads/main/img/heitorimg.png" 
-              alt="Workspace de desenvolvimento" 
+            <img
+              src="https://raw.githubusercontent.com/Heitornm/hnmartins/refs/heads/main/img/heitorimg.png"
+              alt="Workspace de desenvolvimento"
               className="rounded-xl shadow-lg w-full"
             />
           </div>
-          
+
           <div className="space-y-6">
-           
+
             <p className="text-lg">
-              Conhecimentos 
-              em programação multi-paradigma (Python, Java, PHP, JavaScript) e experiência em desenvolvimento 
-              web (HTML5, CSS3) e mobile (React Native, Kotlin).
+              Conhecimentos
+              em programação multi-paradigma (Python e JavaScript) e experiência em desenvolvimento
+              web (maior proficiente em React) e mobile (React Native).
             </p>
-            
+
             <p className="text-lg">
-              Proativo, curioso, empático, com pensamento crítico e senso de prioridade. Procuro ser produtivo, 
+              Proativo, curioso, empático, com pensamento crítico e senso de prioridade. Procuro ser produtivo,
               tenho ótimo relacionamento interpessoal, resolução de problemas e inteligência emocional.
             </p>
             <p className="text-lg">
