@@ -40,8 +40,8 @@ const projetos = [
     externalLink: "https://veronicaxavierruiz.github.io/Ve_Tattoo/"
   },
   {
-    title: "Loja - Monica Viviane Fragrancias",
-    description: "Desenvolvimento de uma loja online. Sob desenvolvimento.",
+    title: "Darth Barber",
+    description: "Desenvolvimento de site para agendamento de serviços de barbearia e cabeleireiro.",
     iconClass: "fas fa-tasks",
     iconBgClass: "bg-gradient-to-br from-indigo-500 to-indigo -600",
     techs: [
@@ -49,9 +49,9 @@ const projetos = [
       { name: "Express", color: "red" },
       { name: "PostgreSQL", color: "blue" }
     ],
-    projectLink: "",
-    githubLink: "",
-    externalLink: ""
+    projectLink: "https://darthbarbers.onrender.com",
+    githubLink: "https://github.com/Heitornm/Darth",
+    externalLink: "https://darthbarbers.onrender.com"
   }
 ];
 
