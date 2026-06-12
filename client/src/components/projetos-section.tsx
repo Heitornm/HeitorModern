@@ -26,20 +26,6 @@ const projetos = [
     externalLink: "https://heitornm.github.io/taskManager/"
   },
   {
-    title: "Landin Page - Ve_Tattoo",
-    description: "Desenvolvimento de uma landing page. Sob desenvolvimento.",
-    iconClass: "fas fa-tasks",
-    iconBgClass: "bg-gradient-to-br from-green-500 to-teal-600",
-    techs: [
-      { name: "JavaScript", color: "yellow" },
-      { name: "Express", color: "red" },
-      { name: "PostgreSQL", color: "blue" }
-    ],
-    projectLink: "https://veronicaxavierruiz.github.io/Ve_Tattoo/",
-    githubLink: "https://github.com/Heitornm/Ve_Tattoo",
-    externalLink: "https://veronicaxavierruiz.github.io/Ve_Tattoo/"
-  },
-  {
     title: "Darth Barber",
     description: "Desenvolvimento de site para agendamento de serviços de barbearia e cabeleireiro.",
     iconClass: "fas fa-tasks",
@@ -53,6 +39,22 @@ const projetos = [
     githubLink: "https://github.com/Heitornm/Darth",
     externalLink: "https://darthbarbers.onrender.com"
   }
+  /*
+  {
+    title: "Landin Page - Ve_Tattoo",
+    description: "Desenvolvimento de uma landing page. Sob desenvolvimento.",
+    iconClass: "fas fa-tasks",
+    iconBgClass: "bg-gradient-to-br from-green-500 to-teal-600",
+    techs: [
+      { name: "JavaScript", color: "yellow" },
+      { name: "Express", color: "red" },
+      { name: "PostgreSQL", color: "blue" }
+    ],
+    projectLink: "https://veronicaxavierruiz.github.io/Ve_Tattoo/",
+    githubLink: "https://github.com/Heitornm/Ve_Tattoo",
+    externalLink: "https://veronicaxavierruiz.github.io/Ve_Tattoo/"
+  }*/
+
 ];
 
 // Componente ProjetosSection atualizado para renderizar a galeria de projetos
