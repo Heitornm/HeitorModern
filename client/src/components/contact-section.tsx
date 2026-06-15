@@ -101,7 +101,7 @@ export function ContactSection() {
       icon: "fab fa-linkedin",
       title: "LinkedIn",
       value: "linkedin.com/in/heitornm",
-      href: "https://www.linkedin.com/in/heitor-nascimento-martins-2b2a33326/",
+      href: "https://www.linkedin.com/in/heitor-nascimento-martins-388a33395",
       bgClass: "bg-blue-500/10",
       iconClass: "text-blue-500"
     },
