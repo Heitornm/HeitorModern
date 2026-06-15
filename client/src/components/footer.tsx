@@ -15,7 +15,7 @@ export function Footer() {
 
   const socialLinks = [
     { href: "https://github.com/heitornm", icon: "fab fa-github" },
-    { href: "https://www.linkedin.com/in/heitor-nascimento-martins-2b2a33326/", icon: "fab fa-linkedin" },
+    { href: "https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B508BTQhoTWyh1jVVNSf8Lg%3D%3D", icon: "fab fa-linkedin" },
     { href: "https://wa.me/5511980170584", icon: "fab fa-whatsapp" },
   ]
 
