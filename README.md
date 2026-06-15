@@ -1,141 +1,208 @@
-# Portfolio Website - Heitor Martins
+<div align="center">
 
-## 🚀 Sobre o Projeto
+# 🚀 Heitor Martins — Portfólio Pessoal
 
-Este é o site pessoal de Heitor Martins, desenvolvedor de sistemas em formação. O projeto foi construído com tecnologias modernas para oferecer uma experiência responsiva e atraente.
+**Desenvolvedor Full Stack & Sistemas**
 
-## ✨ Características
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
-- **Design Moderno**: Interface limpa e profissional
-- **Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
-- **Tema Claro/Escuro**: Alternância entre temas com persistência local
-- **Navegação Suave**: Scroll suave entre seções
-- **Animações Elegantes**: Transições e efeitos visuais modernos
-- **Performance Otimizada**: Carregamento rápido e eficiente
+[🌐 Ver o site ao vivo](https://heitornmatual.onrender.com) · [📧 Contato](mailto:heitor.martins@email.com) · [💼 LinkedIn](https://linkedin.com/in/heitornm)
 
-## 🛠️ Tecnologias Utilizadas
+</div>
 
-### Frontend
-- **React 18** - Biblioteca para interfaces de usuário
-- **TypeScript** - Tipagem estática para JavaScript
-- **Tailwind CSS** - Framework CSS utilitário
-- **Wouter** - Roteamento leve para React
-- **Framer Motion** - Animações e transições
-- **React Hook Form** - Gerenciamento de formulários
-- **Zod** - Validação de schemas
+---
 
-### Backend
-- **Express.js** - Framework web para Node.js
-- **TypeScript** - Tipagem estática
-- **Drizzle ORM** - ORM type-safe para bancos de dados
+## 📋 Sobre o Projeto
 
-### UI Components
-- **Radix UI** - Componentes acessíveis
-- **shadcn/ui** - Sistema de componentes
-- **Lucide React** - Ícones modernos
-- **Font Awesome** - Ícones adicionais
+Site de portfólio pessoal desenvolvido com foco em **performance**, **acessibilidade** e **experiência do usuário**. O projeto foi construído do zero com uma stack moderna, sem dependências de backend ou banco de dados — arquitetura 100% estática e otimizada para deploy na Vercel/Netlify.
 
-### Ferramentas de Desenvolvimento
-- **Vite** - Build tool e servidor de desenvolvimento
-- **ESBuild** - Bundler JavaScript rápido
-- **PostCSS** - Processamento de CSS
+O design prioriza clareza e profissionalismo, com suporte a tema claro/escuro, animações suaves e layout totalmente responsivo.
+
+---
+
+## ✨ Funcionalidades
+
+- **🌙 Dark / Light Mode** — alternância de tema com detecção automática da preferência do sistema (via `prefers-color-scheme`) e persistência no `localStorage`
+- **🎞️ Animações com Framer Motion** — entradas suaves por seção, efeitos hover nos cards e transições de página
+- **🔍 Filtro de Projetos** — filtragem dinâmica por tecnologia/categoria na seção de projetos, sem recarregamento de página
+- **📅 Timeline de Experiência** — visualização cronológica interativa das experiências profissionais
+- **📬 Formulário de Contato** — validação client-side com React Hook Form + Zod, com feedback visual de erro e sucesso
+- **📱 Layout Responsivo** — mobile-first, adaptado para smartphones, tablets e desktops
+- **⚡ Performance otimizada** — build estático com Vite, sem servidor Node em produção
+
+---
+
+## 🛠️ Stack Tecnológica
+
+### Core
+| Tecnologia | Versão | Finalidade |
+|---|---|---|
+| [React](https://react.dev) | 18 | Biblioteca de UI |
+| [TypeScript](https://typescriptlang.org) | 5 | Tipagem estática |
+| [Vite](https://vitejs.dev) | 5 | Build tool e dev server |
+| [Wouter](https://github.com/molefrog/wouter) | — | Roteamento leve (sem React Router) |
+
+### Estilo & UI
+| Tecnologia | Finalidade |
+|---|---|
+| [Tailwind CSS](https://tailwindcss.com) | Utilitários de estilo |
+| [shadcn/ui](https://ui.shadcn.com) | Componentes acessíveis prontos |
+| [Radix UI](https://radix-ui.com) | Primitivos de UI acessíveis |
+| [Lucide React](https://lucide.dev) | Ícones SVG modernos |
+| [Font Awesome](https://fontawesome.com) | Ícones adicionais |
+
+### Animações & Formulários
+| Tecnologia | Finalidade |
+|---|---|
+| [Framer Motion](https://framer.com/motion) | Animações declarativas |
+| [React Hook Form](https://react-hook-form.com) | Gerenciamento de formulários performático |
+| [Zod](https://zod.dev) | Validação de schemas tipada |
+
+---
 
 ## 📁 Estrutura do Projeto
 
 ```
-portfolio-website/
-├── client/                 # Frontend React
-│   ├── src/
-│   │   ├── components/     # Componentes React
-│   │   ├── hooks/          # Custom hooks
-│   │   ├── lib/            # Utilitários e configurações
-│   │   ├── pages/          # Páginas da aplicação
-│   │   └── index.css       # Estilos globais
-│   └── index.html          # Template HTML
-├── server/                 # Backend Express
-│   ├── index.ts           # Servidor principal
-│   ├── routes.ts          # Rotas da API
-│   └── storage.ts         # Interface de armazenamento
-├── shared/                 # Código compartilhado
-│   └── schema.ts          # Schemas TypeScript
-└── package.json           # Dependências do projeto
+HeitorModern/
+├── client/
+│   ├── index.html                  # Template HTML com meta tags SEO completas
+│   └── src/
+│       ├── components/
+│       │   ├── ui/                 # Componentes shadcn/ui (apenas os utilizados)
+│       │   ├── hero-section.tsx    # Seção principal com apresentação
+│       │   ├── about-section.tsx   # Sobre mim
+│       │   ├── experience-section.tsx  # Timeline de experiências
+│       │   ├── education-section.tsx   # Formação acadêmica
+│       │   ├── skills-section.tsx      # Habilidades técnicas
+│       │   ├── projetos-section.tsx    # Projetos com filtro dinâmico
+│       │   ├── ProjectCard.tsx         # Card individual de projeto
+│       │   ├── contact-section.tsx     # Formulário de contato
+│       │   ├── navigation.tsx          # Navbar responsiva
+│       │   ├── footer.tsx              # Rodapé
+│       │   └── theme-provider.tsx      # Contexto de tema claro/escuro
+│       ├── hooks/
+│       │   ├── use-mobile.tsx      # Detecta viewport mobile
+│       │   ├── use-theme.tsx       # Hook de tema claro/escuro
+│       │   └── use-toast.ts        # Hook de notificações toast
+│       ├── lib/
+│       │   ├── smooth-scroll.ts    # Utilitário de scroll suave
+│       │   └── utils.ts            # Funções auxiliares (cn, etc.)
+│       ├── pages/
+│       │   ├── home.tsx            # Página principal
+│       │   └── not-found.tsx       # Página 404
+│       ├── App.tsx                 # Roteamento principal
+│       ├── index.css               # Estilos globais e variáveis CSS
+│       └── main.tsx                # Entry point da aplicação
+├── components.json                 # Configuração do shadcn/ui
+├── tailwind.config.ts              # Configuração do Tailwind
+├── tsconfig.json                   # Configuração do TypeScript
+└── vite.config.ts                  # Configuração do Vite
 ```
 
-## 🎨 Seções do Site
+---
 
-1. **Hero Section**: Apresentação principal com call-to-actions
-2. **Sobre Mim**: História pessoal e profissional
-3. **Experiência**: Timeline das experiências profissionais
-4. **Educação**: Formação acadêmica e certificações
-5. **Habilidades**: Competências técnicas organizadas por categoria
-6. **Contato**: Formulário de contato e informações
-
-## 🚀 Como Executar
+## 🚀 Como Executar Localmente
 
 ### Pré-requisitos
-- Node.js 18+ instalado
-- npm ou yarn
+- Node.js 18+
+- npm
 
 ### Instalação
-1. Clone o repositório
-```bash
-git clone https://github.com/heitornm/portfolio-website.git
-cd portfolio-website
-```
 
-2. Instale as dependências
 ```bash
+# Clone o repositório
+git clone https://github.com/heitornm/HeitorModern.git
+cd HeitorModern
+
+# Instale as dependências
 npm install
-```
 
-3. Execute o projeto em modo desenvolvimento
-```bash
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-4. Acesse http://localhost:5000 no seu navegador
+Acesse [http://localhost:5173](http://localhost:5173) no seu navegador.
 
 ### Build para Produção
+
 ```bash
 npm run build
 ```
 
-## 📱 Responsividade
-
-O site foi desenvolvido com abordagem mobile-first e funciona perfeitamente em:
-- 📱 Smartphones (320px+)
-- 📱 Tablets (768px+)
-- 💻 Desktops (1024px+)
-- 🖥️ Telas grandes (1440px+)
-
-## 🎯 Funcionalidades Especiais
-
-- **Tema Adaptável**: Detecta preferência do sistema e permite alternância manual
-- **Navegação Inteligente**: Menu mobile responsivo com hamburger
-- **Formulário de Contato**: Validação client-side com feedback visual
-- **Timeline Interativa**: Visualização elegante da experiência profissional
-- **Cartões Animados**: Efeitos hover e animações de entrada
-- **Performance**: Lazy loading e otimizações de bundle
-
-## 📧 Contato
-
-- **Email**: heitor.martins@email.com
-- **LinkedIn**: [linkedin.com/in/heitornm](https://linkedin.com/in/heitornm)
-- **GitHub**: [github.com/heitornm](https://github.com/heitornm)
-- **WhatsApp**: +55 (11) 99999-9999
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🤝 Contribuições
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para:
-- Reportar bugs
-- Sugerir novas funcionalidades
-- Enviar pull requests
-- Melhorar a documentação
+Os arquivos de produção serão gerados na pasta `client/dist/`.
 
 ---
 
+## 🌐 Deploy
+
+O projeto é configurado para deploy estático — sem necessidade de servidor Node.js em produção.
+
+### Vercel (recomendado)
+
+```bash
+# Via Vercel CLI
+npm i -g vercel
+vercel
+```
+
+Ou conecte o repositório diretamente no [painel da Vercel](https://vercel.com/new).
+
+**Configurações de build:**
+```
+Build Command:  npm run build
+Output Dir:     client/dist
+Install Command: npm install
+```
+
+### Netlify
+
+```bash
+# Via Netlify CLI
+npm i -g netlify-cli
+netlify deploy --prod --dir=client/dist
+```
+
+---
+
+## 🎨 Seções do Portfólio
+
+| Seção | Descrição |
+|---|---|
+| **Hero** | Apresentação com nome, cargo, links de contato e call-to-actions |
+| **Sobre Mim** | Resumo pessoal e profissional |
+| **Experiência** | Timeline interativa de experiências profissionais |
+| **Educação** | Formação acadêmica e certificações |
+| **Habilidades** | Competências técnicas organizadas por categoria |
+| **Projetos** | Cards com filtro por tecnologia e links para GitHub/demo |
+| **Contato** | Formulário validado com React Hook Form + Zod |
+
+---
+
+## 📈 SEO & Performance
+
+- Meta tags completas (Open Graph, Twitter Card, Schema.org JSON-LD)
+- URL canônica configurada
+- Fonte carregada com `preconnect` para reduzir latência
+- Font Awesome carregado de forma não-bloqueante (`media="print"`)
+- Build estático — sem cold start de servidor
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+<div align="center">
+
 **Desenvolvido com ❤️ por Heitor Martins**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-heitornm-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/heitornm)
+[![GitHub](https://img.shields.io/badge/GitHub-heitornm-181717?style=flat-square&logo=github)](https://github.com/heitornm)
+
+</div>
