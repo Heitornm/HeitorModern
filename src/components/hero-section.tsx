@@ -1,46 +1,45 @@
-// Versão corrigida para você copiar e colar
 import { smoothScrollTo } from "@/lib/smooth-scroll"
 
 export function HeroSection() {
   return (
     <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-cyan-500/10"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-cyan-500/10 pointer-events-none"></div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="pt-16 grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
-            <h2 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
               <span className="gradient-text block">Heitor Martins</span>
-            </h2>
-            <p className="text-2xl mb-8 font-semibold text-gray-800 dark:text-slate-200">
+            </h1>
+            <p className="text-2xl mb-8 font-semibold text-slate-200">
               Desenvolvedor Web e Mobile
             </p>
-            <p id="paragrafoColado" className="text-xl text-slate-600 dark:text-slate-400">
+            <p id="paragrafoColado" className="text-xl text-slate-400 mb-8 max-w-lg">
               Transformando ideias complexas em código limpo, eficiente e escalável.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => smoothScrollTo("#contact")}
-                className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-center"
+                className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-center font-medium"
               >
                 Entre em Contato
               </button>
               <button
                 onClick={() => smoothScrollTo("#about")}
-                className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors text-center"
+                className="border border-blue-600 text-blue-400 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors text-center font-medium"
               >
                 Saiba Mais
               </button>
             </div>
 
             <div className="flex space-x-6 mt-8">
-              <a href="https://github.com/heitornm" className="text-2xl hover:text-blue-600 transition-colors" target="_blank">
+              <a href="https://github.com/heitornm" aria-label="GitHub" className="text-2xl text-slate-400 hover:text-blue-500 transition-colors" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B508BTQhoTWyh1jVVNSf8Lg%3D%3D" className="text-2xl hover:text-blue-600 transition-colors" target="_blank">
+              <a href="https://www.linkedin.com/in/heitornm" aria-label="LinkedIn" className="text-2xl text-slate-400 hover:text-blue-500 transition-colors" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://wa.me/5511980170584" className="text-2xl hover:text-blue-600 transition-colors" target="_blank">
+              <a href="https://wa.me/5511980170584" aria-label="WhatsApp" className="text-2xl text-slate-400 hover:text-blue-500 transition-colors" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-whatsapp"></i>
               </a>
             </div>
@@ -48,32 +47,32 @@ export function HeroSection() {
 
           <div className="animate-fade-in hidden lg:block">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="bg-gray-50 p-8 rounded-2xl">
-                <h3 className="text-2xl font-bold mb-6 text-gray-900">Tecnologias</h3>
+              <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold mb-6 text-slate-100">Tecnologias</h3>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                  <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                  <div className="skill-glow bg-slate-900/60 p-4 rounded-xl text-center shadow-md border border-slate-700/30 transition duration-300">
                     <i className="fab fa-html5 text-3xl text-orange-500 mb-2"></i>
-                    <p className="text-sm font-medium text-gray-700">HTML5</p>
+                    <p className="text-sm font-medium text-slate-300">HTML5</p>
                   </div>
-                  <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                  <div className="skill-glow bg-slate-900/60 p-4 rounded-xl text-center shadow-md border border-slate-700/30 transition duration-300">
                     <i className="fab fa-css3-alt text-3xl text-blue-500 mb-2"></i>
-                    <p className="text-sm font-medium text-gray-700">CSS3</p>
+                    <p className="text-sm font-medium text-slate-300">CSS3</p>
                   </div>
-                  <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                  <div className="skill-glow bg-slate-900/60 p-4 rounded-xl text-center shadow-md border border-slate-700/30 transition duration-300">
                     <i className="fab fa-js-square text-3xl text-yellow-500 mb-2"></i>
-                    <p className="text-sm font-medium text-gray-700">JavaScript</p>
+                    <p className="text-sm font-medium text-slate-300">JavaScript</p>
                   </div>
-                  <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                  <div className="skill-glow bg-slate-900/60 p-4 rounded-xl text-center shadow-md border border-slate-700/30 transition duration-300">
                     <i className="fab fa-react text-3xl text-blue-400 mb-2"></i>
-                    <p className="text-sm font-medium text-gray-700">React</p>
+                    <p className="text-sm font-medium text-slate-300">React</p>
                   </div>
-                  <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                  <div className="skill-glow bg-slate-900/60 p-4 rounded-xl text-center shadow-md border border-slate-700/30 transition duration-300">
                     <i className="fab fa-node-js text-3xl text-green-500 mb-2"></i>
-                    <p className="text-sm font-medium text-gray-700">Node.js</p>
+                    <p className="text-sm font-medium text-slate-300">Node.js</p>
                   </div>
-                  <div className="skill-glow bg-white p-4 rounded-xl text-center shadow-sm transition duration-300">
+                  <div className="skill-glow bg-slate-900/60 p-4 rounded-xl text-center shadow-md border border-slate-700/30 transition duration-300">
                     <i className="fab fa-python text-3xl text-blue-600 mb-2"></i>
-                    <p className="text-sm font-medium text-gray-700">Python</p>
+                    <p className="text-sm font-medium text-slate-300">Python</p>
                   </div>
                 </div>
               </div>
@@ -82,5 +81,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }
