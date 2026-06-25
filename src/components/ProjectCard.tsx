@@ -36,33 +36,32 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <p className="text-gray-600 dark:text-gray-400 mb-4 text-sm leading-relaxed">
           {description}
         </p>
-  <div className="flex flex-wrap gap-2 mb-4">
-    {technologies.map((tech) => (
-      {/* Adiciona classes 'dark:' para as tags de tecnologia */}
-      <span key={tech.name} className={`${tech.color} text-xs px-3 py-1 rounded-full font-medium dark:bg-gray-700 dark:text-gray-300`}>
-        {tech.name}
-      </span>
-    ))}
-</div>
-      <div className="flex justify-between items-center">
-        {/* Adiciona a classe 'dark:' para o link principal */}
-        <a href={projectLink} className="text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-600 font-medium text-sm flex items-center" target="_blank" rel="noopener noreferrer">
-          Ver projeto <i className="fas fa-arrow-right ml-2"></i>
-        </a>
-        <div className="flex space-x-3">
-          {/* Adiciona a classe 'dark:' para o ícone do GitHub */}
-          <a href={githubLink} className="text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github"></i>
+        <div className="flex flex-wrap gap-2 mb-4">
+          {technologies.map((tech) => (
+            <span key={tech.name} className={`${tech.color} text-xs px-3 py-1 rounded-full font-medium dark:bg-gray-700 dark:text-gray-300`}>
+              {tech.name}
+            </span>
+          ))}
+        </div>
+        <div className="flex justify-between items-center">
+          {/* Adiciona a classe 'dark:' para o link principal */}
+          <a href={projectLink} className="text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-600 font-medium text-sm flex items-center" target="_blank" rel="noopener noreferrer">
+            Ver projeto <i className="fas fa-arrow-right ml-2"></i>
           </a>
-          {/* Adiciona a classe 'dark:' para o ícone de link externo */}
-          <a href={liveLink} className="text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400" target="_blank" rel="noopener noreferrer">
-            <i className="fas fa-external-link-alt"></i>
-          </a>
+          <div className="flex space-x-3">
+            {/* Adiciona a classe 'dark:' para o ícone do GitHub */}
+            <a href={githubLink} className="text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i>
+            </a>
+            {/* Adiciona a classe 'dark:' para o ícone de link externo */}
+            <a href={liveLink} className="text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400" target="_blank" rel="noopener noreferrer">
+              <i className="fas fa-external-link-alt"></i>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    </div >
-  );
+    </div >
+  );
 };
 
 export default ProjectCard;
