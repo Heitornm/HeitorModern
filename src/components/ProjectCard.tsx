@@ -60,7 +60,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 

@@ -59,7 +59,7 @@ const projetos = [
 
 // Componente ProjetosSection atualizado para renderizar a galeria de projetos
 export function ProjetosSection() {
-  const renderTechnology = (tech) => (
+  const renderTechnology = (tech: { name: string; color: string }) => (
     <span
       key={tech.name}
       className={`bg-${tech.color}-100 text-${tech.color}-800 text-xs px-3 py-1 rounded-full font-medium`}
@@ -109,7 +109,7 @@ export function ProjetosSection() {
         </div>
       </div>
       {/* Adiciona o link para o Font Awesome para que os ícones funcionem */}
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" xintegrity="sha512-iBBXm8fW90+z7j5uD7s1D/qQ1W9yTjC8M7p4r+Z9O6F+2x0B3kC1R7q/p7L4yI6zG8w4vF6zP7J8y8O6/A==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+z7j5uD7s1D/qQ1W9yTjC8M7p4r+Z9O6F+2x0B3kC1R7q/p7L4yI6zG8w4vF6zP7J8y8O6/A==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
     </section>
   );
 }
