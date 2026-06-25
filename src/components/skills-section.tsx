@@ -9,7 +9,6 @@ export function SkillsSection() {
         { name: "JavaScript", level: 4 },
         { name: "Python", level: 4 },
         { name: "Java", level: 3 },
-        { name: "PHP", level: 3 }
       ]
     },
     {
@@ -38,18 +37,7 @@ export function SkillsSection() {
         { name: "APIs REST", color: "red" }
       ]
     },
-    {
-      title: "Cloud & DevOps",
-      icon: "fas fa-cloud",
-      color: "purple-500/10",
-      iconColor: "purple-500",
-      technologies: [
-        { name: "Azure", color: "blue" },
-        { name: "AWS", color: "orange" },
-        { name: "Google Cloud", color: "red" },
-        { name: "Git", color: "gray" }
-      ]
-    },
+    
     {
       title: "Mobile",
       icon: "fas fa-mobile-alt",
@@ -58,8 +46,7 @@ export function SkillsSection() {
       technologies: [
         { name: "React Native", color: "cyan" },
         { name: "Android", color: "green" },
-        { name: "Kotlin", color: "orange" },
-        { name: "Jetpack", color: "purple" }
+        
       ]
     }
   ]
