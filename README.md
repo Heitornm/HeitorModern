@@ -57,11 +57,6 @@ A arquitetura do projeto segue as melhores convenções de mercado para aplicaç
    ```bash
    git clone [https://github.com/heitornm/HeitorModern.git](https://github.com/heitornm/HeitorModern.git)
 
-
-
-
-
-
 ## 📈 Análise de Performance & Infraestrutura (Lighthouse)
 
 Durante as avaliações do **Google Lighthouse**, o projeto demonstrou excelentes métricas de carregamento estrutural, mas sofreu impactos de latência no ambiente mobile devido a limitações de infraestrutura de hospedagem gratuita (Render Free Tier):
@@ -74,3 +69,49 @@ Durante as avaliações do **Google Lighthouse**, o projeto demonstrou excelente
 
 ### 💡 Soluções de Engenharia Aplicadas para Mitigar o Gargalo de Infraestrutura:
 1. **Módulos sob demanda (Code Splitting):** Para compensar o atraso do servidor gratuito, o bundle principal foi reduzido ao menor tamanho possível. Uma vez que o servidor responde, o navegador baixa e renderiza a tela em poucos milissegundos.
+
+# 🖥️ Avaliação de Performance Lighthouse - Desktop
+
+Relatório automatizado de auditoria de página web para o ambiente Desktop.
+
+## 📌 Informações Gerais
+
+* **URL Solicitada:** `https://heitornmatual.onrender.com/`
+* **Data/Hora da Coleta:** 26/06/2026, 00:16:58 (UTC)
+* **Versão do Lighthouse:** 13.2.0
+* **Agente do Usuário (User Agent):** `Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/149.0.0.0`
+
+---
+
+## 📊 Métricas Core Web Vitals
+
+Abaixo estão os tempos de carregamento e renderização da página:
+
+| Métrica | Tempo | Status | Descrição |
+| :--- | :--- | :--- | :--- |
+| **First Contentful Paint (FCP)** | 1,1 s | 🟢 Bom | Tempo até o primeiro texto ou imagem ser renderizado. |
+| **Speed Index** | 1,2 s | 🟢 Bom | Rapidez com que o conteúdo da página é visivelmente preenchido. |
+| **Largest Contentful Paint (LCP)** | 1,3 s | 🟢 Bom | Tempo até o maior elemento de texto ou imagem ser exibido. |
+
+---
+
+## 🔒 Segurança e Infraestrutura
+
+### 🟢 Utiliza HTTPS
+* **Status:** Aprovado (Score: 1)
+* **Descrição:** O site está devidamente protegido com HTTPS, garantindo que a comunicação entre o app e o usuário seja criptografada e segura.
+
+### ⚪ Redirecionamento HTTP para HTTPS
+* **Status:** Não aplicável / Já configurado nativamente pelo servidor de hospedagem.
+
+---
+
+## 📸 Linha do Tempo de Carregamento (Filmstrip)
+Visualização de como a página foi preenchida visualmente durante o carregamento no desktop:
+
+| 0,37 s | 0,75 s | 1,12 s | 1,50 s | 1,87 s | 2,25 s |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| ⬜ | ⬜ | 🖼️ | 🖼️ | 🖼️ | 🖼️ |
+| *Tela em Branco* | *Tela em Branco* | *Primeira Renderização* | *Conteúdo Completo* | *Conteúdo Completo* | *Pronto* |
+
+> 💡 **Nota de Performance:** O site apresentou excelentes tempos de resposta no ambiente Desktop, com o LCP atingindo a marca de **1,3 s**, ficando bem abaixo do limite de 2,5 s recomendado pela Google.
