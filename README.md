@@ -56,3 +56,21 @@ A arquitetura do projeto segue as melhores convenções de mercado para aplicaç
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/heitornm/HeitorModern.git](https://github.com/heitornm/HeitorModern.git)
+
+
+
+
+
+
+## 📈 Análise de Performance & Infraestrutura (Lighthouse)
+
+Durante as avaliações do **Google Lighthouse**, o projeto demonstrou excelentes métricas de carregamento estrutural, mas sofreu impactos de latência no ambiente mobile devido a limitações de infraestrutura de hospedagem gratuita (Render Free Tier):
+
+| Métrica | Resultado (Mobile) | Status / Análise |
+| :--- | :--- | :--- |
+| **Speed Index** | `3.3s` | 🟢 **Excelente (91/100)**. Indica que a interface é montada e distribuída de forma extremamente ágil assim que os dados chegam. |
+| **First Contentful Paint (FCP)** | `2.9s` | 🟡 **Intermediário**. Impactado pelo tempo de resposta inicial do servidor (*Cold Start*). |
+| **Largest Contentful Paint (LCP)** | `5.3s` | 🔴 **Alvo de Latência de Rede**. Ocorre estritamente devido ao *spin-down* do plano gratuito do Render, que deixa a aplicação em modo de hibernar após inatividade. |
+
+### 💡 Soluções de Engenharia Aplicadas para Mitigar o Gargalo de Infraestrutura:
+1. **Módulos sob demanda (Code Splitting):** Para compensar o atraso do servidor gratuito, o bundle principal foi reduzido ao menor tamanho possível. Uma vez que o servidor responde, o navegador baixa e renderiza a tela em poucos milissegundos.
