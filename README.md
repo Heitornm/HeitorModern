@@ -1,6 +1,6 @@
 # 🚀 Heitor Martins | Modern Portfolio
 
-Portfólio pessoal moderno desenvolvido com foco em altíssima performance, acessibilidade e design responsivo. O projeto foi estruturado utilizando o ecossistema React moderno e otimizado para atingir pontuações máximas no Google Lighthouse, garantindo uma experiência de usuário fluida e carregamento instantâneo.
+Portfólio pessoal moderno desenvolvido com foco em alta performance, acessibilidade e design responsivo. O projeto foi estruturado utilizando o ecossistema React moderno e otimizado para atingir boas pontuações no Google Lighthouse, garantindo uma experiência de usuário fluida e carregamento instantâneo.
 ![alt text](public/og-image.webp)
 ---
 
@@ -21,11 +21,12 @@ Portfólio pessoal moderno desenvolvido com foco em altíssima performance, aces
 
 ---
 
-## ⚡ Otimizações de Performance & Boas Práticas (Lighthouse Setup)
+## ⚡ Otimizações de Performance & Boas Práticas 
 
 O grande diferencial deste projeto não está apenas na interface, mas na engenharia de software aplicada nos bastidores para mitigar gargalos comuns de Single Page Applications:
 
-* **Code Splitting & Lazy Loading (React.lazy + Suspense):** Em vez de forçar o navegador a baixar todo o código do site de uma vez só, o portfólio foi fragmentado em *chunks* dinâmicos. Seções pesadas como "Projetos" e "Experiência" só são carregadas sob demanda, derrubando o **FCP (First Contentful Paint)**.
+* **Code Splitting & Lazy Loading (React.lazy + Suspense):
+* ** Em vez de forçar o navegador a baixar todo o código do site de uma vez só, o portfólio foi fragmentado em *chunks* dinâmicos. Seções pesadas como "Projetos" e "Experiência" só são carregadas sob demanda, derrubando o **FCP (First Contentful Paint)**.
 * **Asset Optimization (Práticas de LCP):** Substituição de formatos antigos de imagem por **WebP** na imagem do Open Graph e assets principais, garantindo compressão sem perda de qualidade.
 * **Tailwind Static Compiling Fix:** Eliminação de concatenações dinâmicas de strings na estilização que geravam quebras no Purge do Tailwind, resultando em um bundle CSS final limpo e enxuto.
 * **Eliminação de Bloqueios de Renderização:** Ajuste estrutural e carregamento assíncrono e condicional de scripts externos (fontes e bibliotecas de ícones duplicadas).
